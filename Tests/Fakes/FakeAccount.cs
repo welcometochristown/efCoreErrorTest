@@ -18,7 +18,7 @@ namespace Tests.Fakes
         public static Account_Master SmtrSimpleDummyAccount => new Account_Master
         {
             NUMBER_INT = 1,
-            SCOPE_CHR = FakeAccountScope.SmtrSimplePublic.SCOPE_CHR,
+            SCOPE_CHR = "Public",
         };
     }
 }
